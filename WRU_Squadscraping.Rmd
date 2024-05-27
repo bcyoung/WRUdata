@@ -4,16 +4,22 @@ author: "BY"
 date: "`r Sys.Date()`"
 output: html_document
 ---
+Install and load the libraries we need. Rvest is for scraping, and we use with the Polite package to, via robots.txt cache, checks the URL and user agent string against it and to the web page and enforces rate limiting.
 
 ```{r}
-install.packages("rvest")
-install.packages("dplyr")
+#install.packages("rvest")
+#install.packages("dplyr")
+install.packages("polite")
 
-# Load libraries
 library(rvest)
+library(polite)
 library(dplyr)
+library(tidyr)
 
 ```
+Helpful pages on these packages: https://personales.upv.es/algarsal/R-tutorials/07_Tutorial-7_R-dplyr-tidyr.html
+https://dmi3kno.github.io/polite/
+
 Define the url and extract the html
 ```{r}
 url <- "https://en.wikipedia.org/wiki/2008_Six_Nations_Championship_squads"
@@ -39,15 +45,37 @@ Convert the list to a data frame
 df_WRUSquad_2008 <- as.data.frame(WRUSquad_2008)
 ```
 
-Clean up the column names and data as necessary. This step will vary based on the specific structure of the table
-Remove empty rows
+Clean up the column names and data as necessary.
+
+Remove empty rows.
 ```{r}
 colnames(df_WRUSquad_2008) <- c("Player", "Position", "DOB", "Caps", "Club")
 df_WRUSquad_2008 <- df_WRUSquad_2008 %>% 
   filter(Player != "")  
 ```
 
-Display cleaned table
+Split out DOB into 3 columns
+```{r}
+library(stringr)
+df_WRUSquad_2008 <- df_WRUSquad_2008 %>% separate(DOB, c('DOB_Day', 'DOB_Month', 'DOB_Year'))
+ 
+print(df_WRUSquad_2008)
+```
+
+I want to add a Squad year column to all rows
+```{r}
+C_len <- nrow(df_WRUSquad_2008)
+C_len
+
+Squad_Year_Pop <-rep(c(2008),times=C_len)
+df1<-data.frame(Squad_Year_Pop)
+Squad_Year
+
+df_WRUSquad_2008 = data.frame(df_WRUSquad_2008, Squad_Year)
+print(df_WRUSquad_2008)
+```
+
+Display and write cleaned table
 ```{r}
 print(df_WRUSquad_2008)
 write.csv(df_WRUSquad_2008, file = "df_WRUSquad_2008.csv")
@@ -55,6 +83,7 @@ write.csv(df_WRUSquad_2008, file = "df_WRUSquad_2008.csv")
 
 Repeat for other years
 2009
+
 ```{r}
 url <- "https://en.wikipedia.org/wiki/2009_Six_Nations_Championship_squads"
 
