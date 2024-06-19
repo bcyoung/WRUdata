@@ -1,31 +1,31 @@
-"","Player","Position","DOB","Caps","Club"
-"1","Huw Bennett","Hooker","11 June 1983",14,"Ospreys"
-"2","Matthew Rees","Hooker","9 December 1980",16,"Scarlets"
-"3","Gareth Williams","Hooker","19 December 1978",5,"Blues"
-"4","Gethin Jenkins","Prop","17 November 1980",53,"Blues"
-"5","Adam Jones","Prop","8 March 1981",55,"Ospreys"
-"6","Duncan Jones","Prop","18 September 1978",45,"Ospreys"
-"7","Rhys M. Thomas","Prop","31 July 1982",3,"Dragons"
-"8","Ian Evans","Lock","4 October 1984",8,"Ospreys"
-"9","Ian Gough","Lock","10 November 1976",45,"Ospreys"
-"10","Alun Wyn Jones","Lock","19 September 1985",18,"Ospreys"
-"11","Deiniol Jones","Lock","18 November 1977",4,"Blues"
-"12","Robin Sowden-Taylor","Flanker","9 June 1982",5,"Blues"
-"13","Jonathan Thomas","Flanker","27 December 1982",39,"Ospreys"
-"14","Martyn Williams","Flanker","1 September 1975",76,"Blues"
-"15","Gareth Delve","Number 8","30 September 1982",4,"Gloucester"
-"16","Ryan Jones (c)","Number 8","13 March 1981",16,"Ospreys"
-"17","Alix Popham","Number 8","17 October 1979",32,"Scarlets"
-"18","Gareth Cooper","Scrum-half","7 May 1979",35,"Gloucester"
-"19","Dwayne Peel","Scrum-half","31 August 1981",59,"Scarlets"
-"20","Mike Phillips","Scrum-half","29 August 1982",28,"Ospreys"
-"21","James Hook","Fly-half","27 June 1985",20,"Ospreys"
-"22","Stephen Jones","Fly-half","8 December 1977",62,"Scarlets"
-"23","Gavin Henson","Centre","1 February 1982",23,"Ospreys"
-"24","Sonny Parker","Centre","27 August 1977",27,"Ospreys"
-"25","Tom Shanklin","Centre","24 November 1979",47,"Blues"
-"26","Tom James","Wing","11 April 1987",2,"Blues"
-"27","Mark Jones","Wing","7 November 1979",35,"Scarlets"
-"28","Shane Williams","Wing","26 February 1977",51,"Ospreys"
-"29","Lee Byrne","Fullback","1 June 1980",14,"Ospreys"
-"30","Jamie Roberts","Fullback","8 November 1986",0,"Blues"
+"","Player","Position","DOB_Day","DOB_Month","DOB_Year","Caps","Club","Squad_Year","Age"
+"1","Huw_Bennett","Hooker","11","June",1983,14,"Ospreys",2008,25
+"2","Matthew_Rees","Hooker","9","December",1980,16,"Scarlets",2008,28
+"3","Gareth_Williams","Hooker","19","December",1978,5,"Blues",2008,30
+"4","Gethin_Jenkins","Prop","17","November",1980,53,"Blues",2008,28
+"5","Adam_Jones","Prop","8","March",1981,55,"Ospreys",2008,27
+"6","Duncan_Jones","Prop","18","September",1978,45,"Ospreys",2008,30
+"7","Rhys_M_Thomas","Prop","31","July",1982,3,"Dragons",2008,26
+"8","Ian_Evans","Lock","4","October",1984,8,"Ospreys",2008,24
+"9","Ian_Gough","Lock","10","November",1976,45,"Ospreys",2008,32
+"10","Alun_Wyn_Jones","Lock","19","September",1985,18,"Ospreys",2008,23
+"11","Deiniol_Jones","Lock","18","November",1977,4,"Blues",2008,31
+"12","Robin_Sowden-Taylor","Flanker","9","June",1982,5,"Blues",2008,26
+"13","Jonathan_Thomas","Flanker","27","December",1982,39,"Ospreys",2008,26
+"14","Martyn_Williams","Flanker","1","September",1975,76,"Blues",2008,33
+"15","Gareth_Delve","Number 8","30","September",1982,4,"Gloucester",2008,26
+"16","Ryan_Jones_(c)","Number 8","13","March",1981,16,"Ospreys",2008,27
+"17","Alix_Popham","Number 8","17","October",1979,32,"Scarlets",2008,29
+"18","Gareth_Cooper","Scrum-half","7","May",1979,35,"Gloucester",2008,29
+"19","Dwayne_Peel","Scrum-half","31","August",1981,59,"Scarlets",2008,27
+"20","Mike_Phillips","Scrum-half","29","August",1982,28,"Ospreys",2008,26
+"21","James_Hook","Fly-half","27","June",1985,20,"Ospreys",2008,23
+"22","Stephen_Jones","Fly-half","8","December",1977,62,"Scarlets",2008,31
+"23","Gavin_Henson","Centre","1","February",1982,23,"Ospreys",2008,26
+"24","Sonny_Parker","Centre","27","August",1977,27,"Ospreys",2008,31
+"25","Tom_Shanklin","Centre","24","November",1979,47,"Blues",2008,29
+"26","Tom_James","Wing","11","April",1987,2,"Blues",2008,21
+"27","Mark_Jones","Wing","7","November",1979,35,"Scarlets",2008,29
+"28","Shane_Williams","Wing","26","February",1977,51,"Ospreys",2008,31
+"29","Lee_Byrne","Fullback","1","June",1980,14,"Ospreys",2008,28
+"30","Jamie_Roberts","Fullback","8","November",1986,0,"Blues",2008,22
